@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="60dip"
+	    android:orientation="vertical"
+	    android:layout_weight="4.5">
+	    <ImageView
+	        android:id="@+id/notifyLogo"
+	        android:layout_width="fill_parent"
+            android:layout_height="60dip"
+            android:scaleType="fitXY"
+	        android:src="@drawable/ic_logo"/>
+	</LinearLayout>
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+	    android:gravity="center_vertical"
+	    android:layout_weight="1">
+	    <TextView 
+	        android:id="@+id/notifyTitile"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="16sp"
+	        android:layout_weight="1"
+	        android:text="@string/update_in_progress"/>
+	    <TextView 
+	        android:id="@+id/notifyContent"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_marginLeft="15dip"
+	        android:textSize="14sp"
+	        android:layout_weight="1"
+	        android:text="@string/wait_a_moment"/>
+	</LinearLayout>
+</LinearLayout>

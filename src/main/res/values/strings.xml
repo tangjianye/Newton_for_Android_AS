@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义Dialog -->
+    <string name="title_alert">提示信息</string>
+    <string name="ok">确 定</string>
+    <string name="cancel">取 消</string>
+    <string name="succeed">成功</string>
+    <string name="app_name">牛顿</string>
+    <string name="dialog_message">正在请求服务器,请稍等</string>
+    <string name="dialog_clear_data_title">确定清除所有数据?</string>
+    <string name="dialog_again_record">取消?</string>
+    <string name="dialog_refresh_apk_title">升级提示</string>
+    <string name="dialog_refresh_data_ok">更新</string>
+   
+    <!-- 网络连接检测 -->
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="loading">正在加载...</string>
+	
+    <!-- 提示框 -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+
+    <!-- 登录 -->
+    <string name="login_bt">登 录</string>
+    <string name="login_succeed">登录成功</string>
+    <string name="login_fail">登录失败</string>
+    <string name="login_account_not_exist">账号不存在</string>
+    <string name="account_name">手机号/用户名</string>
+    <string name="forgot_password">忘记密码?</string>
+    <string name="login_password_enter">输入密码</string>
+    <string name="login_password_error">密码输入有误</string>
+    <string name="third_party_account_login">第三方登录</string>
+    <string name="login_later">服务器正在维护，请稍后登录</string>
+    <string name="empty_account">亲，账号不能为空!</string>
+    <string name="empty_password">亲，密码不能为空!</string>
+
+    <!-- 注册 -->
+    <string name="register_agreed">我已阅读并同意</string>
+    <string name="next_steps">下一步</string>
+    <string name="register_btn">注册</string>
+    <string name="register_succeed">注册成功</string>
+    <string name="register_fail">注册失败</string>
+    <string name="register_phoneNum">手机号注册</string>
+    <string name="registration_agreement">《注册协议》</string>
+    <string name="register_agreed_Confirm">请确认已阅读注册协议</string>
+
+    <!-- 设置 -->
+    <string name="setting_unopened">暂未开放，敬请期待</string>
+    <string name="suggest_personal">个人信息问题</string>
+    <string name="suggest_execution">任务执行问题</string>
+    <string name="suggest_software">软件问题</string>
+    <string name="suggest_other">其他</string>
+    <string name="suggest_content">请输入您的建议...</string>
+    <string name="copyright">数据堂 版权所有</string>
+    <string name="contact_number">联系电话</string>
+    <string name="contact_way">联系方式：(建议为你的手机号和邮箱)</string>
+    <string name="qq_group">QQ群</string>
+    <string name="aboutus">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;众客堂是国内首款专业的数据众包平台。您在闲暇时刻轻松赚钱。使用手机完成一些简单任务即可拿到现金报酬。打开APP，完成注册后，在任务大厅里你可以自主选择自己喜欢的任务。众客堂是数据堂推出的一款专业的大数据任务众包平台，是不是感觉很高大上，众客堂的宗旨就是，帮助用户开发碎片时间的价值让学习和收益同时进行。</string>
+
+    <!-- 提现 & 绑定信息 -->
+    <string name="statement">声明：</string>
+    <string name="statement_content">此信息关系到您的收益，且只可修改三次，请慎重填写</string>
+    <string name="real_name">真实姓名</string>
+    <string name="alipay">支付宝账号</string>
+    <string name="id_card">身份证号</string>
+    <string name="security_code">验证码</string>
+    <string name="get_security_code">获取验证码</string>
+    <string name="get_security_code_again">再次获取</string>
+    <string name="submit">提交</string>
+    <string name="phone_number">手机号</string>
+    <string name="upload_avatar">上传头像</string>
+    <string name="bind">绑定</string>
+    <string name="earnings_history">历史收入</string>
+    <string name="withdraw_history">历史提现</string>
+    <string name="balance">余额：</string>
+    <string name="apply_withdrawals">申请提现</string>
+    <string name="balanceAdapter_task_done">完成了任务</string>
+    <string name="accumulated_income">累计收入：</string>
+    <string name="accumulated_withdrawal">累计提现：</string>
+    <string name="reviewing_withdrawal">正在审核提现：</string>
+    <string name="heroes_ranking">英雄排名：</string>
+    <string name="old_password">原始密码</string>
+    <string name="new_password">新密码</string>
+    <string name="retype_password">再次输入新密码</string>
+    <string name="make_sure_modify">确认修改</string>
+    <string name="suggest_nickname">建议使用您的手机号作为昵称</string>
+    <string name="new_nickname">请输入新的昵称</string>
+    <string name="choose_city">选择城市</string>
+    <string name="enter_keyword">请输入关键字</string>
+    <string name="withdraw_alert">提示：本次最多可提现1000元</string>
+    <string name="withdrawal_amount">提现金额</string>
+
+    <!-- 积分模块 -->
+    <string name="distance_next_level">距离下等级还有积分</string>
+    <string name="integral">积分</string>
+    <string name="rank">等级</string>
+    <string name="integral_history">积分历史</string>
+    <string name="task_time">任务/时间</string>
+    <string name="message_content">信息内容</string>
+    <string name="wait_a_moment">请稍等</string>
+    <string name="update_in_progress">正在更新</string>
+
+    <!-- 系统设置 -->
+    <string name="setting_system">系统设置</string>
+    <string name="setting_help">使用帮助</string>
+    <string name="setting_suggest">意见反馈</string>
+    <string name="setting_suggest_information">反馈意见不可为空</string>
+    <string name="setting_suggest_information_done">反馈完成，感谢您的支持！！</string>
+    <string name="setting_suggest_sending">正在发送消息，请稍等...</string>
+    <string name="setting_about">关于我们</string>
+    <string name="setting_versions">当前版本：</string>
+    <string name="account_setting">账号设置</string>
+    <string name="get_account_failure">获取账户信息失败</string>
+    <string name="modify_city_failure">修改城市失败</string>
+    <string name="my_nickname">我的昵称：</string>
+    <string name="current_city">所在城市：</string>
+    <string name="withdraw_account">提现账号</string>
+    <string name="bind_phoneNum">绑定手机：</string>
+    <string name="modify_password">修改密码：</string>
+    <string name="accountSettingFragment_unknow">未知</string>
+
+    <!-- 头像编辑 -->
+    <string name="avatarFragment_avatar_edit">头像编辑</string>
+    <string name="avatarFragment_setting_avatar">设置头像</string>
+    <string name="avatarFragment_upload_avatar">上传头像</string>
+    <string name="avatarFragment_upload_avatar_succeed">上传成功</string>
+    <string name="avatarFragment_upload_avatar_fail">上传失败</string>
+    <string name="avatarFragment_uploading_avatar">头像正在上传中</string>
+
+    <!-- 绑定手机号 -->
+    <string name="bindPhoneNumberFragment_bind_phoneum">绑定手机号</string>
+    <string name="bindPhoneNumberFragment_phoneNum_isEmpty">手机号不可为空</string>
+    <string name="bindPhoneNumberFragment_security_code_isEmpty">验证码不可为空</string>
+    <string name="bindPhoneNumberFragment_phoneNum_error">手机号不正确</string>
+    <string name="bindPhoneNumberFragment_security_code_error">验证码不正确</string>
+    <string name="bindPhoneNumberFragment_get_security_code_error">验证码获取失败</string>
+
+    <!-- 个人中心 -->
+    <string name="individualCenterFragment_title">个人中心</string>
+
+    <!-- 注销提示 -->
+    <string name="individualCenterFragment_logout_content">亲爱的，您要残忍的离我而去吗?</string>
+    <string name="individualCenterFragment_logout_ok">温柔留下</string>
+    <string name="individualCenterFragment_logout_cancel">残忍离开</string>
+
+    <!-- 修改昵称 -->
+    <string name="modifyNickNameFragment_title">修改昵称</string>
+    <string name="modifyNickNameFragment_nickname_isEntity">昵称不可为空</string>
+
+    <!-- 修改密码 -->
+    <string name="modifyPasswordFragment_title">修改密码</string>
+    <string name="modifyPasswordFragment_newpassword_isEntity">新密码不可为空</string>
+    <string name="modifyPasswordFragment_oldpassword_isEntity">原始密码不可为空</string>
+    <string name="modifyPasswordFragment_password_not_match">两次密码输入不一致</string>
+    <string name="modifyPasswordFragment_succeed">修改成功</string>
+    <string name="modifyPasswordFragment_fail">修改失败</string>
+
+    <!-- 我的积分 -->
+    <string name="myIntegralFragment_title">我的积分</string>
+
+    <!-- 我的消息 -->
+    <string name="myMessageFragment_title">我的消息</string>
+    <string name="myMessageFragment_editor">编辑</string>
+    <string name="myMessageFragment_message_inexistence">消息不存在</string>
+    <string name="myMessageFragment_message_content_inexistence">消息内容不存在</string>
+    <string name="myMessageFragment_message_detail">消息详情</string>
+    <string name="myMessageFragment_untreated_message">您没有最近未处理的消息！</string>
+    <string name="myMessageFragment_message_delete_current">确定删除这条消息？</string>
+    <string name="myMessageFragment_message_delete_all">确定删除所有消息？</string>
+
+    <!-- 我的任务 -->
+    <string name="myTaskFragment_title">我的任务</string>
+    <string name="task_todo">待完成任务</string>
+    <string name="task_done">已完成任务</string>
+
+    <!-- 时间控件 -->
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="select_time">选取时间</string>
+
+    <!-- 任务模块 -->
+    <string name="task_prompt_content">您好，在执行任务的过程中更换设备，可能会导致数据丢失，请您保持在同一设备完成任务！</string>
+    <string name="task_not_prompt">不再提示</string>
+    <string name="task">任务</string>
+    <string name="mine">我的</string>
+    <string name="discover">发现</string>
+    <string name="setting">设置</string>
+    <string name="task_all_title">所有任务</string>
+    <string name="task_execution">执行任务</string>
+    <string name="task_apply">申请任务</string>
+    <string name="task_upload">上传任务</string>
+    <string name="taskInfoFragment_taskDetail">任务详情</string>
+    <string name="taskInfoFragment_request_data">正在请求数据，请耐心等待</string>
+    <string name="taskInfoFragment_apply_task_fail">申请任务失败</string>
+    <string name="taskInfoFragment_quick_tap">请您对我温柔点好吗？我好怕怕</string>
+    <string name="taskInfoFragment_none_grantNumber">没有获取到序列号，请重试</string>
+    <string name="task_finish_collect_money">亲，您已经完成了此任务，您就坐等收钱吧！</string>
+    <string name="task_finish_daily">亲，今天您已经完成了此任务，明天再来吧！</string>
+
+    <!-- 版本更新 -->
+    <string name="updata_roger">知道了</string>
+    <string name="updata_download">正在下载安装包  {0}%</string>
+    <string name="updata_new_version_release">当前已经是最新版本!</string>
+    <string name="updata_significant_version_release">重大版本更新</string>
+    <string name="updata_hava_new_version">已推出了新版本，便于您的使用体验请升级！</string>
+    <string name="updata_download_error">下载出错了！</string>
+    <string name="updata_newest_version">当前已经是最新版本!</string>
+
+    <!-- 手写模块 -->
+    <string name="handWrite_loss_of_data">您的数据丢失，可能被删除掉了</string>
+    <string name="handWrite_none_curpus">语料资源载入失败</string>
+
+    <!-- 找回密码 -->
+    <string name="getBackPasswordFragment_title">找回密码</string>
+
+    <!-- 第三方登录 -->
+    <string name="WeixinLogin_uninstalled">没有安装微信，请下载微信并安装</string>
+
+    <!-- 异常提示 -->
+    <string name="warn_program_exception">很抱歉，程序出现异常，即将退出。</string>
+    <string name="app_exit">再按一次退出程序</string>
+    <string name="net_disconnected">网络不给力呀，请检查一下再试试！</string>
+
+    <!-- 拍照模块 -->
+    <string name="image_str_add_group_info">点击按钮，添加图片，每组拍摄图片不少于{0}张，最多不超过{1}张。</string>
+    <string name="image_str_add_group">+ 添加分组</string>
+    <string name="image_str_upload_current_group">上传本组图片</string>
+    <string name="image_str_upload_all">上传所有图片</string>
+    <string name="image_pictures_failed">拍照失败</string>
+    <string name="image_yes">是</string>
+    <string name="image_no">否</string>
+    <string name="image_select_images_not_exist">选择的图片不存在</string>	
+    <string name="image_group_upper_limit">添加分组已经达到最大值，不能再添加了</string>
+    <string name="image_select_images_not_upload">您的照片没有上传，退出将不保存您的照片，是否要退出？</string>
+    <string name="image_group_statistics">当前组号：{0}\n拍摄情况：共 {1}组 共  {2}张</string>
+
+    <!-- 录音模块 -->
+    <string name="recording">录音</string>
+    <string name="play_btn">回放</string>
+    <string name="playing_btn">正在播放</string>
+    <string name="previous_btn">上一条</string>
+    <string name="jump_btn">跳转</string>
+    <string name="jump_error">不能跳转到这一条记录</string>
+    <string name="jump_next_error">此句未完成，不能跳转到下一条记录</string>
+    <string name="next_btn">下一条</string>
+    <string name="save">正在保存……</string>
+    <string name="start">开始</string>
+    <string name="pause">暂停</string>
+    <string name="read_corpus_info_title">请读取如下语料</string>
+    <string name="load_data">正在读取数据,请稍后..</string>
+    <string name="recording_tips">录制进度:</string>
+    <string name="list_begin">已经是第一条记录</string>
+    <string name="list_end">已经是最后一条记录</string>
+    <string name="dialog_title">提示</string>
+    <string name="export_title">上传结果</string>
+    <string name="dialog_upload_record">上传录音</string>
+    <string name="dialog_complete_record">您已经录音完毕！</string>
+    <string name="record_end">结束录音</string>
+    <string name="progress_tips">进度:</string>
+    <string name="status_tips">状态:</string>
+    <string name="status_uploading">正在上传</string>
+    <string name="status_upload">上传</string>
+    <string name="status_pause">已暂停</string>
+    <string name="status_finish">已完成</string>
+    <string name="empty_upload_file">上传文件为空</string>
+    <string name="uploading">正在上传,请稍候..</string>
+    <string name="upload_file_error">上传文件出错</string>
+    <string name="error_msg00">本条录音合格，请录制下一条</string>
+    <string name="error_msg01">您的音量过大，请减小音量或者远离手机说话</string>
+    <string name="error_msg02">您的音量过小，请加大音量或者靠近手机说话</string>
+    <string name="error_msg03">请您在倒计时结束后开始说话</string>
+    <string name="error_msg04">请确认录音结束后再点击结束说话</string>
+    <string name="error_msg05">等待时间过长，请在倒计时结束后及时开始录音</string>
+    <string name="error_msg06">结束等待时间过长，请结束后立即点击结束按钮</string>
+    <string name="jump_file_num">跳转到第{0}句</string> 
+    <string name="record_finish">录制结束才可点击完成</string> 
+
+    <!-- 录制视频 -->
+    <string name="customVideoCaptureFragment_name_duration">名称：\n时长：\n</string>
+    <string name="customVideoCaptureFragment_start">开始录制</string>
+    <string name="customVideoCaptureFragment_open_carmera">打开相机录制</string>
+    <string name="customVideoCaptureFragment_again_get_carmera">重新获取摄像设备！</string>
+    <string name="customVideoCaptureFragment_end">结束录制</string>
+    <string name="customVideoCaptureFragment_upload">上传视频</string>
+
+    <!-- ResultDialog -->
+    <string name="ResultDialog_copy">复制</string>
+    <string name="ResultDialog_open">打开</string>
+
+    <!-- 第三方 -->
+    <string name="third_party_share">分享</string>
+    <string name="third_party_share_to">分享到：</string>
+    <string name="third_party_weixin">微信好友</string>
+    <string name="third_party_qq">QQ好友</string>
+    <string name="third_party_sina_weibo">新浪微博</string>
+    <string name="third_party_mail">邮件</string>
+    <string name="third_party_timeline">朋友圈</string>
+    <string name="third_party_qqzone">QQ空间</string>
+    <string name="third_party_message">短信</string>
+    <string name="third_party_more">更多</string>
+    <string name="third_party_weibo_hint">微博客户端不支持 SDK 分享或微博客户端未安装或微博客户端是非官方版本。</string>
+    <string name="third_party_share_content">国内首款专业的数据众包平台，让您在闲暇时刻轻松赚钱，您只要使用手机完成一些简单任务即可拿到现金报酬。</string>
+    
+    <!-- 选择照片 -->
+    <string name="imageChooseDialog_open_carmera">打开相机</string>
+    <string name="imageChooseDialog_select_album">选择相册</string>
+       
+    <!-- 功能菜单 -->
+    <string name="home_menu_decoding">解码二维码</string>
+    <string name="home_menu_scanned">扫描二维码</string>
+    <string name="home_menu_download">下载牛顿</string>
+    <string name="home_menu_rebate">扫红码得红包</string>
+    <string name="home_menu_nearby">附近</string>
+    
+    <string name="home_save_qr_code">将二维码保存到：</string>
+    <string name="home_mobile_scanner">用Android手机扫描二维码下载牛顿</string>
+    <string name="home_scanner_redcord">让别人使用微信扫描此页面中的红色二维码，并使用应用宝下载众客堂，就有机会获得由微信派发的红包，具体规则如下：</string>
+	<string name="finish">完成</string>
+</resources>

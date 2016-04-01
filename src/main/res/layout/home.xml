@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+   
+    <RelativeLayout
+        android:id="@+id/body"
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1" />
+ 	<View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/graydark"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_tab_btn_bg"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/task_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gray_tab_btn_bg"
+            android:drawableTop="@drawable/ic_tab_btn_home"
+            android:textColor="@color/gray_btn_bg_pressed_color"
+            android:text="@string/task" />
+
+        <Button
+            android:id="@+id/settings_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gray_tab_btn_bg"
+            android:drawableTop="@drawable/ic_tab_btn_setting"
+            android:textColor="@color/gray_btn_bg_pressed_color"
+            android:text="@string/setting" />
+        
+        <Button
+            android:id="@+id/discover_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/gray_tab_btn_bg"
+            android:drawableTop="@drawable/ic_tab_btn_discover"
+            android:textColor="@color/gray_btn_bg_pressed_color"
+            android:text="@string/discover" />
+
+        <Button
+            android:id="@+id/my_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/gray_btn_bg_pressed_color"
+            android:background="@color/gray_tab_btn_bg"
+            android:drawableTop="@drawable/ic_tab_btn_mine"
+            android:text="@string/mine" />
+    </LinearLayout>
+
+</LinearLayout>

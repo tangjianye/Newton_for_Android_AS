@@ -1,0 +1,180 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/discover_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="@string/discover"
+        android:textColor="@color/graydarktext"
+        android:visibility="gone"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/discover_imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_setting" />
+
+        <TextView
+            android:id="@+id/discover_scan_code"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="7dip"
+            android:layout_weight="0.75"
+            android:text="@string/home_menu_scanned"
+            android:textColor="@color/graydarktext" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:gravity="right"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+    
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:layout_margin="10dip"
+        android:background="@color/graydark" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/discover_imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_setting" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dip"
+            android:layout_weight="0.86"
+            android:text="@string/home_menu_decoding"
+            android:textColor="@color/graydarktext" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:layout_margin="10dip"
+        android:background="@color/graydark" />
+    
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/discover_imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_setting" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dip"
+            android:layout_weight="0.90"
+            android:text="@string/third_party_share"
+            android:textColor="@color/graydarktext" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:layout_margin="10dip"
+        android:background="@color/graydark" />
+     
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/discover_imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_setting" />
+
+        <TextView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dip"
+            android:layout_weight="9.17"
+            android:text="@string/home_menu_download"
+            android:textColor="@color/graydarktext" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="0.5dip"
+        android:layout_margin="10dip"
+        android:background="@color/graydark" />
+    
+     <LinearLayout
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content" >
+
+         <ImageView
+             android:id="@+id/discover_imageView5"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="10dp"
+             android:src="@drawable/ic_setting" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_margin="7dip"
+             android:layout_weight="0.95"
+             android:text="@string/home_menu_rebate"
+             android:textColor="@color/graydarktext" />
+
+         <ImageView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_gravity="right"
+             android:src="@drawable/next_page_black" />
+     </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:layout_margin="10dip"
+        android:background="@color/graydark" />
+</LinearLayout>

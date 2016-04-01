@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_color"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:visibility="gone" >
+
+            <RadioGroup
+                android:id="@+id/mail_group"
+                android:layout_width="fill_parent"
+                android:layout_height="35dip"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RadioButton
+                    android:id="@+id/mail_stoptalk"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:checked="true"
+                    android:paddingLeft="17dip"
+                    android:text="@string/suggest_personal"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/mail_date"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="32"
+                    android:paddingLeft="17dip"
+                    android:text="@string/suggest_execution"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/mail_ots"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="25"
+                    android:paddingLeft="17dip"
+                    android:text="@string/suggest_software"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" >
+                </RadioButton>
+
+                <RadioButton
+                    android:id="@+id/mail_else"
+                    style="@style/RadioButtonStyles"
+                    android:layout_width="0.0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="18"
+                    android:paddingLeft="17dip"
+                    android:text="@string/suggest_other"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" >
+                </RadioButton>
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="6dip"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="fill_parent"
+                android:layout_height="200dip"
+                android:layout_alignParentTop="true"
+                android:gravity="top|left"
+                android:hint="@string/suggest_content"
+                android:singleLine="false"
+                android:textSize="16sp" >
+            </EditText>
+
+            <EditText
+                android:id="@+id/suggest_connection"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:hint="@string/contact_way"
+                android:textSize="16sp" >
+            </EditText>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

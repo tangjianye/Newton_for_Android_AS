@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/bg_color"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="@string/dialog_title"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:text="@string/task_prompt_content"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dip"
+        android:layout_marginLeft="15dip"
+        android:paddingRight="15dip"
+        android:text="@string/task_not_prompt"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip"
+        android:layout_marginBottom="15dip"
+        android:text="@string/ok"
+        android:textColor="@color/white"
+        android:textSize="18sp" 
+        android:background="@drawable/state_list_rounded_rectangle"/>
+
+</LinearLayout>

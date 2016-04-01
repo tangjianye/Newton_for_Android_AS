@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floatview"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:background="@color/transparent" />
+		<View
+            android:layout_width="wrap_content"
+            android:layout_height="45dip"
+            android:layout_weight="1"
+            android:background="#cf000000" />
+        <View
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:background="@color/transparent" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:background="#cf000000" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginLeft="20dip"
+                android:src="@drawable/float_menu" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_marginRight="20dip" 
+                android:src="@drawable/float_individual"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="#cf000000" >
+		<ImageView 
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:src="@drawable/float_point"/>
+    </LinearLayout>
+
+</LinearLayout>

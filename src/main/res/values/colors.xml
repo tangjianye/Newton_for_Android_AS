@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="bg_color">#FEFCF5</color>
+    <color name="help_color">#AAAAAA</color>
+    <color name="group_color">#555555</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="blue">#28aae2</color>
+    <color name="gray">#fff3f3f3</color>
+    <color name="graydark">#A9A9A9</color>
+    
+    <color name="graydarktext">#333333</color>
+    <color name="bt_bg">#CA0220</color>
+    <color name="btn_pressed_bg">#ff8c00</color>
+    <color name="radiobg_press">#43859d</color>
+    <color name="radiobg_normal">#555555</color>
+    <color name="common_color">#B5130E</color>
+    <color name="lightgrey">#ff888888</color>
+    <color name="transparent">#00000000</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <!-- 我的任务 -->
+    <color name="btn_red">#A00E2F</color>
+    <color name="float_transparent">#66000000</color>
+    <color name="sweet_dialog_bg_color">#FFFFFF</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="gray_tab_btn_bg">#FFFFF7</color>
+    <color name="blue_btn_bg_color">#AEDEF4</color>
+    <color name="blue_btn_bg_pressed_color">#96BFD2</color>
+    <color name="red_btn_bg_color">#DD6B55</color>
+    <color name="red_btn_bg_pressed_color">#CD5B55</color>
+    <color name="error_stroke_color">#F27474</color>
+    <color name="success_stroke_color">#A5DC86</color>
+    <color name="trans_success_stroke_color">#33A5DC86</color>
+    <color name="warning_stroke_color">#F8BB86</color>
+
+  <color name="viewfinder_frame">#ff000000</color>
+  <color name="viewfinder_laser">#ffff0000</color>
+  <color name="viewfinder_mask">#60000000</color>
+  <color name="possible_result_points">#c0ffff00</color> 
+  <color name="result_view">#b0000000</color>
+</resources>

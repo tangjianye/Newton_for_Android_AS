@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/individual_head_bg"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/individual_message"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <com.fpliu.newton.framework.ui.RoundImageView
+                android:id="@+id/avatar_image"
+                android:layout_width="100dip"
+                android:layout_height="100dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dip"
+                android:src="@drawable/ic_logo" />
+
+            <TextView
+                android:id="@+id/individual_nickname_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/white"
+                android:textSize="19sp" />
+
+            <TextView
+                android:id="@+id/individual_level_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/individual_location_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dip"
+                android:drawableLeft="@drawable/ic_location"
+                android:gravity="center"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/image_item"
+            android:layout_width="25dip"
+            android:layout_height="35dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dip"
+            android:gravity="right"
+            android:src="@drawable/next_page_white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <com.fpliu.newton.framework.ui.RoundListView
+        android:id="@+id/individual_center_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:layout_marginTop="20dip"
+        android:background="@drawable/shape_bg_listview"
+        android:cacheColorHint="#00000000"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1px" />
+
+</LinearLayout>

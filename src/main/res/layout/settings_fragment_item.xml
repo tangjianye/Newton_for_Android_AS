@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/settings_item"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:textColor="@color/graydarktext"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="15dip"
+        android:layout_height="25dip"
+        android:layout_marginRight="12dip"
+        android:layout_marginTop="9dip"
+        android:src="@drawable/next_page_black" />
+
+</LinearLayout>

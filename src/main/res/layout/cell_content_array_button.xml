@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/button_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/history_earnings_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_weight="0.50"
+        android:background="@color/bt_bg"
+        android:text="@string/earnings_history"
+        android:textSize="16sp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="1dp"
+        android:layout_height="45dp"
+        android:background="@color/white"/>
+
+    <Button
+        android:id="@+id/history_withdraw_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/title_bar_height"
+        android:layout_weight="0.50"
+        android:textSize="16sp"
+        android:background="@color/bt_bg"
+        android:text="@string/withdraw_history"
+        android:textColor="@color/white" />
+
+</LinearLayout>

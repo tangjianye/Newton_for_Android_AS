@@ -1,0 +1,136 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:self="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:layout_weight="0.02"
+        android:orientation="vertical" >
+        
+       <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/statement"
+        android:textColor="@color/red" />
+	    <TextView
+	        android:id="@+id/textView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/statement_content"
+	        android:textColor="@color/graydarktext" />
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="match_parent"
+	        android:layout_height="0.5dp"
+	        
+	      
+	        android:layout_marginTop="5dip"
+	        android:background="@color/graydark" />
+               
+          <com.fpliu.newton.framework.ui.EditTextEx
+            android:id="@+id/withdraw_name"
+            style="@style/my_edittext_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="7dip"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/real_name"
+            android:minWidth="200dip"
+            android:singleLine="true"
+            android:textColor="#151515"
+            android:maxLength="16"
+            android:textSize="16sp"
+            android:layout_marginTop="5dip"
+            self:delBk="@drawable/ic_action_delete_pressed" />
+          
+          <com.fpliu.newton.framework.ui.EditTextEx
+            android:id="@+id/withdraw_account"
+            style="@style/my_edittext_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="7dip"
+            android:layout_marginTop="5dip"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/alipay"
+            android:minWidth="200dip"
+            android:singleLine="true"
+            android:maxLength="32"
+            android:textColor="#151515"
+            android:textSize="16sp"
+            self:delBk="@drawable/ic_action_delete_pressed" />
+          <com.fpliu.newton.framework.ui.EditTextEx
+            android:id="@+id/withdraw_identity"
+            style="@style/my_edittext_style"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dip"
+            android:paddingLeft="7dip"
+            android:layout_gravity="center_vertical"
+            android:hint="@string/id_card"
+            android:minWidth="200dip"
+            android:singleLine="true"
+            android:textColor="#151515"
+            android:textSize="16sp"
+            android:maxLength="20"
+            android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            self:delBk="@drawable/ic_action_delete_pressed" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_marginTop="5dip"
+             android:layout_height="45dip" 
+             android:orientation="horizontal">
+         <com.fpliu.newton.framework.ui.EditTextEx
+             android:id="@+id/withdraw_verification_code"
+             style="@style/my_edittext_style"
+             android:layout_width="fill_parent"
+             android:layout_height="40dp"
+             android:layout_gravity="center_vertical"
+             android:paddingLeft="7dip"
+             android:hint="@string/security_code"
+             android:minWidth="200dip"
+             android:singleLine="true"
+             android:layout_weight="3"
+             android:textColor="#151515"
+             android:textSize="16sp"
+             android:maxLength="6"
+             android:digits="1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+             self:delBk="@drawable/ic_action_delete_pressed" />
+
+         <Button
+             android:id="@+id/withdraw_verification_code_bt"
+             android:layout_width="match_parent"
+             android:layout_height="40dip"
+             android:background="@drawable/btn_bg_change"
+             android:layout_marginTop="2dip"
+             android:layout_weight="5"
+             android:text="@string/get_security_code"
+             android:textColor="@color/white" />
+
+         </LinearLayout>
+	    <TextView
+	        android:id="@+id/phone_number"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/graydarktext"
+	        android:layout_marginTop="5dip" />
+
+	    <Button
+	        android:id="@+id/withdraw_bt"
+	        android:layout_width="60dp"
+	        android:layout_height="35dip"
+	        android:layout_weight="0.00"
+	        android:background="@drawable/btn_bg_change"
+	        android:layout_gravity="right"
+	        android:text="@string/submit"
+	        android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dip"
+        android:contentDescription="头像"
+        android:src="@drawable/ic_logo" />
+
+    <Button
+        android:id="@+id/upload_btn"
+        android:layout_width="200dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="60dip"
+        android:layout_below="@id/icon"
+        android:layout_centerHorizontal="true"
+        android:text="@string/upload_avatar"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

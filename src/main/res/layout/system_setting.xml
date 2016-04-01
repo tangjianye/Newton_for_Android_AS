@@ -1,0 +1,119 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linerlayout_help"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="40dip"
+        android:background="@drawable/top_round"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/setting_help"
+            android:textColor="@color/graydarktext"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="23dip"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerlayout_suggest"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/no_round"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/setting_suggest"
+            android:textColor="@color/graydarktext"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="23dip"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linerlayout_about_us"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/no_round"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/setting_about"
+            android:textColor="@color/graydarktext"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="23dip"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linerlayout_version"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/bottom_round"
+        android:gravity="center_vertical"
+        android:minHeight="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/current_version"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dip"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="@string/setting_versions"
+            android:textColor="@color/graydarktext"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="23dip"
+            android:src="@drawable/next_page_black" />
+    </LinearLayout>
+
+</LinearLayout>

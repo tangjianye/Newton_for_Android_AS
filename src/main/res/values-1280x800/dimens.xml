@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ 	<dimen name="viewpager_EditText_With">500dp</dimen>
+   	<dimen name="viewpager_Spinner_With">500dp</dimen>
+   	 <dimen name="button_height">40dp</dimen>
+</resources>

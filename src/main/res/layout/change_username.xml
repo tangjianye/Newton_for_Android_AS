@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:self="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <com.fpliu.newton.framework.ui.EditTextEx
+        android:id="@+id/modify_name"
+        style="@style/my_edittext_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginRight="10dip"
+        android:layout_marginTop="50dip"
+        android:singleLine="true"
+        android:ems="10"
+        android:hint="@string/new_nickname"
+        android:maxLength="16"
+        android:paddingLeft="7dip"
+        android:paddingRight="7dip"
+        self:delBk="@drawable/ic_action_delete_pressed" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:text="@string/suggest_nickname"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/modify_button"
+        android:layout_width="100dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="40dip"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/btn_bg_change"
+        android:text="@string/make_sure_modify"
+        android:textSize="18sp"
+        android:textColor="@color/white" />
+
+</LinearLayout>

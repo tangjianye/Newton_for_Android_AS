@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 自定义Dialog -->
+    <string name="title_alert">Notice</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="succeed">Succeed</string>
+    <string name="app_name">Newton</string>
+    <string name="dialog_message">Requesting from server. Please wait</string>
+    <string name="dialog_clear_data_title">Clear all data?</string>
+    <string name="dialog_again_record">Cancel?</string>
+    <string name="dialog_refresh_apk_title">Upgrade notice</string>
+    <string name="dialog_refresh_data_ok">Update</string>
+
+    <!-- 网络连接检测 -->
+    <string name="pull_to_refresh">Pull down to refresh</string>
+    <string name="release_to_refresh">Release to refresh</string>
+    <string name="refreshing">Refreshing...</string>
+    <string name="pullup_to_load">Pull up to load more</string>
+    <string name="release_to_load">Release to load</string>
+    <string name="loading">Loading...</string>
+
+    <!-- 提示框 -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+
+    <!-- 登录 -->
+    <string name="login_bt">Log in</string>
+    <string name="account_name">Phone number/user name</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_password_enter">Enter password</string>
+    <string name="third_party_account_login">The third party account login</string>
+    <string name="login_succeed">Login successfully</string>
+    <string name="login_fail">Login failed</string>
+    <string name="login_account_not_exist">Account doesn\'t exist</string>
+    <string name="login_password_error">Incorrect password</string>
+    <string name="login_later">Our server is under maintenance, please visit later</string>
+    <string name="empty_account">Account number cannot be empty</string>
+    <string name="empty_password">Password cannot be empty</string>
+
+    <!-- 注册 -->
+    <string name="register_agreed">I have read and agreed to</string>
+    <string name="next_steps">Next step</string>
+    <string name="register_btn">Register</string>
+    <string name="register_succeed">Registered successfully</string>
+    <string name="register_fail">Registration failed</string>
+    <string name="register_phoneNum">Register with your phone number</string>
+    <string name="registration_agreement">《Registration Agreement》</string>
+    <string name="register_agreed_Confirm">Please make sure you have read《Registration Agreement》</string>
+
+    <!-- 设置 -->
+    <string name="setting_unopened">Opening soon</string>
+    <string name="suggest_personal">Personal information issue</string>
+    <string name="suggest_execution">Task proceeding issue</string>
+    <string name="suggest_software">Software issue</string>
+    <string name="suggest_other">Other</string>
+    <string name="suggest_content">Please tell us your advice...</string>
+    <string name="copyright">Copyright reserved by Datatang</string>
+    <string name="contact_number">Phone number</string>
+    <string name="contact_way">Contact information: (phone number and email address are suggested)</string>
+    <string name="qq_group">QQ Group</string>
+    <string name="aboutus">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Zhongketang is the first domestic professional data crowdsourcing platform, which helps you earn money easily during free time.  You will receive cash payment by completing simple tasks through mobile phone: open your APP, complete the registration and select your favored tasks at task lobby autonomously. zhongketang is a professional big data task crowdsourcing platform published by data tang, and our mission is to help users make full use of their fregmented time for both learning and earning. </string>
+
+    <!-- 提现 & 绑定信息 -->
+    <string name="statement">Notice:</string>
+    <string name="statement_content">This information is related to your benefit and can only be amended 3 times, please fill in carefully .</string>
+    <string name="real_name">Real name</string>
+    <string name="alipay">Alipay account number</string>
+    <string name="id_card">ID Card</string>
+    <string name="security_code">Verification code</string>
+    <string name="get_security_code">Gets the verification code</string>
+    <string name="get_security_code_again">Gets again</string>
+    <string name="submit">Submit</string>
+    <string name="phone_number">Mobile phone number</string>
+    <string name="upload_avatar">Upload portrait</string>
+    <string name="bind">Binding</string>
+    <string name="earnings_history">Income history</string>
+    <string name="withdraw_history">Withdraw history</string>
+    <string name="balance">Balance：</string>
+    <string name="apply_withdrawals">withdraw</string>
+    <string name="balanceAdapter_task_done">Task is completed</string>
+    <string name="accumulated_income">Accumulated income：</string>
+    <string name="accumulated_withdrawal">Accumulated withdrawals：</string>
+    <string name="reviewing_withdrawal">Verifying withdrawal：</string>
+    <string name="heroes_ranking">Ranking：</string>
+    <string name="old_password">Original password</string>
+    <string name="new_password">New password</string>
+    <string name="retype_password">Input password again</string>
+    <string name="make_sure_modify">Done</string>
+    <string name="suggest_nickname">Set up user name with your phone number (suggested)</string>
+    <string name="new_nickname">Please input new nickname</string>
+    <string name="choose_city">Select city</string>
+    <string name="enter_keyword">Please input keyword</string>
+    <string name="withdraw_alert">Notice: maximum withdrawal amount is 1000 RMB</string>
+    <string name="withdrawal_amount">Withdrawal amount</string>
+
+    <!-- 积分模块 -->
+    <string name="distance_next_level">Credit to the next level</string>
+    <string name="integral">Credit</string>
+    <string name="rank">Grade</string>
+    <string name="integral_history">Credit history</string>
+    <string name="task_time">Task/Schedule</string>
+    <string name="message_content">Information details</string>
+    <string name="wait_a_moment">Please wait</string>
+    <string name="update_in_progress">Updating now</string>
+
+    <!-- 系统设置 -->
+    <string name="setting_system">System settings</string>
+    <string name="setting_help">Help</string>
+    <string name="setting_suggest">Feedback</string>
+    <string name="setting_suggest_information">Feedback cannot be empty</string>
+    <string name="setting_suggest_information_done">Feedback complete</string>
+    <string name="setting_suggest_sending">Sending,please wait...</string>
+    <string name="setting_about">About us</string>
+    <string name="setting_versions">Version：</string>
+    <string name="account_setting">Account setting</string>
+    <string name="get_account_failure">Failed to access account information</string>
+    <string name="modify_city_failure">Failed to modify city</string>
+    <string name="my_nickname">My nickname：</string>
+    <string name="current_city">Current city：</string>
+    <string name="withdraw_account">Sccount number</string>
+    <string name="bind_phoneNum">Binding mobile phone ：</string>
+    <string name="modify_password">Modify password：</string>
+    <string name="accountSettingFragment_unknow">Unknown</string>
+
+    <!-- 头像编辑 -->
+    <string name="avatarFragment_avatar_edit">Edit profile</string>
+    <string name="avatarFragment_setting_avatar">Set up portrait</string>
+    <string name="avatarFragment_upload_avatar">Upload profile</string>
+    <string name="avatarFragment_upload_avatar_succeed">Upload successfully</string>
+    <string name="avatarFragment_upload_avatar_fail">Failed to upload</string>
+    <string name="avatarFragment_uploading_avatar">Uploading portrait</string>
+
+    <!-- 绑定手机号 -->
+    <string name="bindPhoneNumberFragment_bind_phoneum">Binding phone number</string>
+    <string name="bindPhoneNumberFragment_phoneNum_isEmpty">Phone number cannot be empty</string>
+    <string name="bindPhoneNumberFragment_security_code_isEmpty">Verification code cannot be empty</string>
+    <string name="bindPhoneNumberFragment_phoneNum_error">Invalid phone number</string>
+    <string name="bindPhoneNumberFragment_security_code_error">Incorrect verification code</string>
+    <string name="bindPhoneNumberFragment_get_security_code_error">Failed to obtain verification code</string>
+
+    <!-- 个人中心 -->
+    <string name="individualCenterFragment_title">My page</string>
+
+    <!-- 注销提示 -->
+    <string name="individualCenterFragment_logout_content">Are you leaving me, my dear?</string>
+    <string name="individualCenterFragment_logout_ok">stay</string>
+    <string name="individualCenterFragment_logout_cancel">leave</string>
+
+    <!-- 修改昵称 -->
+    <string name="modifyNickNameFragment_title">Modify nickname</string>
+    <string name="modifyNickNameFragment_nickname_isEntity">Nickname cannot be empty</string>
+
+    <!-- 修改密码 -->
+    <string name="modifyPasswordFragment_title">Modify password</string>
+    <string name="modifyPasswordFragment_newpassword_isEntity">New password cannot be empty</string>
+    <string name="modifyPasswordFragment_oldpassword_isEntity">Old password cannot be empty</string>
+    <string name="modifyPasswordFragment_password_not_match">Two passwords entered are not the same</string>
+    <string name="modifyPasswordFragment_succeed">Modification succeed</string>
+    <string name="modifyPasswordFragment_fail">Modification failed</string>
+
+    <!-- 我的积分 -->
+    <string name="myIntegralFragment_title">My credit</string>
+
+    <!-- 我的消息 -->
+    <string name="myMessageFragment_title">My message</string>
+    <string name="myMessageFragment_editor">Edit</string>
+    <string name="myMessageFragment_message_inexistence">Message doesn\'t exist</string>
+    <string name="myMessageFragment_message_content_inexistence">Message content doesn\'t exist</string>
+    <string name="myMessageFragment_message_detail">Message details</string>
+    <string name="myMessageFragment_untreated_message">You have no recent unread message!</string>
+    <string name="myMessageFragment_message_delete_current">Are you sure to delete this message?</string>
+    <string name="myMessageFragment_message_delete_all">Are you sure to delete all messages?</string>
+
+    <!-- 我的任务 -->
+    <string name="myTaskFragment_title">My task</string>
+    <string name="task_todo">Unfinished task</string>
+    <string name="task_done">Completed tasks</string>
+
+    <!-- 时间控件 -->
+    <string name="year">Year</string>
+    <string name="month">Month</string>
+    <string name="day">Date</string>
+    <string name="hour">Hour</string>
+    <string name="minute">Minute</string>
+    <string name="second">Second</string>
+    <string name="select_time">Select time</string>
+
+    <!-- 任务模块 -->
+    <string name="task_prompt_content">Changing device during a task may cause loss of data. Please make sure you complete the task on the same device!</string>
+    <string name="task_not_prompt">No more prompt</string>
+    <string name="task">Task</string>
+    <string name="mine">Mine</string>
+    <string name="discover">Discover</string>
+    <string name="setting">Settings</string>
+    <string name="task_all_title">All tasks</string>
+    <string name="task_execution">Complete a task</string>
+    <string name="task_apply">Apply for a task</string>
+    <string name="task_upload">Upload a task</string>
+    <string name="taskInfoFragment_taskDetail">Task details</string>
+    <string name="taskInfoFragment_request_data">Requesting data. Please wait</string>
+    <string name="taskInfoFragment_apply_task_fail">Failed to apply task</string>
+    <string name="taskInfoFragment_quick_tap">I\'m terrified. Could you please be gentle to me?</string>
+    <string name="taskInfoFragment_none_grantNumber">Failed to obtain serial number. Please try again</string>
+    <string name="task_finish_collect_money">Dear user, you have completed this task. Payment is on its way!</string>
+    <string name="task_finish_daily">Dear user, you have completed this task for today. Come back tomorrow!</string>
+
+    <!-- 版本更新 -->
+    <string name="updata_roger">Got it!</string>
+    <string name="updata_download">Downloading installation package {0}%</string>
+    <string name="updata_new_version_release">You are using the latest version!</string>
+    <string name="updata_significant_version_release">Huge updates of Zhongketang  V2.0</string>
+    <string name="updata_hava_new_version">Zhongketang has published the latest version. Please upgrade for better user experience (recommended)!</string>
+    <string name="updata_download_error">Download error!</string>
+    <string name="updata_newest_version">You are using the latest version!</string>
+
+    <!-- 手写模块 -->
+    <string name="handWrite_loss_of_data">Your data is missing. It might be deleted</string>
+    <string name="handWrite_none_curpus">Failed to load corpus</string>
+
+    <!-- 找回密码 -->
+    <string name="getBackPasswordFragment_title">Retrieve your password</string>
+
+    <!-- 第三方登录 -->
+    <string name="WeixinLogin_uninstalled">No wechat installed. Please download and install wechat</string>
+
+    <!-- 异常提示 -->
+    <string name="warn_program_exception">Sorry, program error. Will exit automatically.</string>
+    <string name="app_exit">Press again to exit program</string>
+    <string name="net_disconnected">Poor network. Please check and try again!</string>
+
+    <!-- 拍照模块 -->
+    <string name="image_str_add_group_info">Press button to add image. Be sure the number of image in each set is no less then {0} and no more than {1}.</string>
+    <string name="image_str_add_group">+ Add group</string>
+    <string name="image_str_upload_current_group">Upload this group</string>
+    <string name="image_str_upload_all">Upload all images</string>
+    <string name="image_pictures_failed">Photo taken failed</string>
+    <string name="image_yes">Yes</string>
+    <string name="image_no">No</string>
+    <string name="image_select_images_not_exist">Selected image does not exist</string>
+    <string name="image_group_upper_limit">Reached the maximum number of group. Cannot add more.</string>
+    <string name="image_select_images_not_upload">Picture is not uploaded. Cannot be saved if you exit. Are you sure to exit?</string>
+    <string name="image_group_statistics">Current group NO. {0}\n Shooting condition：Toal Group: {1}, total images: {2}.</string>
+
+    <!-- 录音模块 -->
+    <string name="recording">Record</string>
+    <string name="play_btn">Replay</string>
+    <string name="playing_btn">Playing</string>
+    <string name="previous_btn">Previous</string>
+    <string name="jump_btn">Jump</string>
+    <string name="jump_error">Cannot jump to selected record.</string>
+    <string name="jump_next_error">This sentence is not completed. Cannot skip to next record</string>
+    <string name="next_btn">Next </string>
+    <string name="save">Saving……</string>
+    <string name="start">Start</string>
+    <string name="pause">Stop</string>
+    <string name="read_corpus_info_title">Please read below corpus</string>
+    <string name="load_data">Reading data, please wait...</string>
+    <string name="recording_tips">Recording progress:</string>
+    <string name="list_begin">This is already the first record</string>
+    <string name="list_end">This is already the last record</string>
+    <string name="dialog_title">Notice</string>
+    <string name="export_title">Upload results</string>
+    <string name="dialog_upload_record">Upload recording</string>
+    <string name="dialog_complete_record">Your recording is completed</string>
+    <string name="record_end">Stop recording </string>
+    <string name="progress_tips">Progress:</string>
+    <string name="status_tips">Status:</string>
+    <string name="status_uploading">Uploading</string>
+    <string name="status_upload">Upload</string>
+    <string name="status_pause">Paused</string>
+    <string name="status_finish">Completed</string>
+    <string name="empty_upload_file">Uploaded file is empty</string>
+    <string name="uploading">Uploading. Please wait</string>
+    <string name="upload_file_error">Uploaded file error</string>
+    <string name="error_msg00">Valid recording. Please record the next one.</string>
+    <string name="error_msg01">Your volume is too loud, please lower your voice or stay far away from your phone</string>
+    <string name="error_msg02">Your volume is too low, please raise your voice or stay closer to your phone</string>
+    <string name="record_finish">After the end of the recording can click Finish</string>
+
+    <!-- 翻译太长 -->
+    <string name="error_msg03">Please begin to record right after the countdown is finished</string>
+    <string name="error_msg04">Please confirm your recording is completed beforing press on "stop"</string>
+    <string name="error_msg05">Have been waiting too long, please begin to record right after the countdown is finished</string>
+    <string name="error_msg06">Have been waiting too long, please click "stop" right after your recording is completed</string>
+    <string name="jump_file_num">Jump to the {0} piece.</string>
+
+    <!-- 录制视频 -->
+    <string name="customVideoCaptureFragment_name_duration">Name: \n duration:\n</string>
+    <string name="customVideoCaptureFragment_start">Begin recording</string>
+    <string name="customVideoCaptureFragment_open_carmera">Turn on camera to record</string>
+    <string name="customVideoCaptureFragment_again_get_carmera">Re-obtaining camera equipement</string>
+    <string name="customVideoCaptureFragment_end">End recording</string>
+    <string name="customVideoCaptureFragment_upload">Upload video</string>
+
+    <!-- ResultDialog -->
+    <string name="ResultDialog_copy">Copy</string>
+    <string name="ResultDialog_open">Open</string>
+
+    <!-- 第三方 -->
+    <string name="third_party_share">Share</string>
+    <string name="third_party_share_to">Share to：</string>
+    <string name="third_party_weixin">Wechat</string>
+    <string name="third_party_qq">QQ</string>
+    <string name="third_party_sina_weibo">Weibo</string>
+    <string name="third_party_mail">Email</string>
+    <string name="third_party_timeline">Moments</string>
+    <string name="third_party_qqzone">Qzone</string>
+    <string name="third_party_message">SMS</string>
+    <string name="third_party_more">More</string>
+    <string name="third_party_weibo_hint">Weibo client-end could working only when it is installed, excluding SDK sharing or unofficial version.</string>
+    <string name="third_party_share_content">Zhongketang is the first domestic professional data crowd-sourcing platform. It enables you to earn money easily during free time. You will receive cash payment by completing some very simple tasks on our mobile app.</string>
+
+    <!-- 选择照片 -->
+    <string name="imageChooseDialog_open_carmera">Turn on camera</string>
+    <string name="imageChooseDialog_select_album">Select photo album</string>
+
+    <!-- 功能菜单 -->
+    <string name="home_menu_decoding">Decode QR Code</string>
+    <string name="home_menu_scanned">Scan QR Code</string>
+    <string name="home_menu_download">Download App</string>
+    <string name="home_menu_rebate">Rebate</string>
+    <string name="home_menu_nearby">Nearby</string>
+    <string name="home_save_qr_code">Save the qr code to</string>
+    <string name="home_mobile_scanner">Android mobile phone to scan two-dimensional code to download zhongketang</string>
+    <string name="home_scanner_redcord">Let others use the micro channel scan the page in a red two-dimensional code, and download the zhongketang application treasure, will have the opportunity to get a micro channel payment envelopes, specific rules are as follows:</string>
+    <string name="finish">Finish</string>
+
+</resources>

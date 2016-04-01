@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/ScrollLayoutTest"
+  android:background="@drawable/welcome3"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+  <Button
+      android:id="@+id/welcomebt"
+      android:layout_width="240dip"
+      android:layout_height="35dip"
+      style="@style/DemoMainActivity_Button_Style"
+      android:layout_alignParentBottom="true"
+      android:layout_centerHorizontal="true"
+      android:layout_marginBottom="47dp"
+      android:background="@color/red"
+      android:onClick="myclick"
+      android:text="体验一下"
+      android:textColor="#ffffff" />
+
+ </RelativeLayout> 
