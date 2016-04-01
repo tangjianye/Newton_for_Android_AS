@@ -17,11 +17,12 @@ if [ $# = 2 ] ; then
 	sed -i s/${OLD_PACKAGE_NAME}/$2/g `grep ${OLD_PACKAGE_NAME} -rl ./`
 	
 	#
-	str1=$2
-        str2=${str1//./_}
-        echo $str1
-        echo $str2
-        sed -i s/${str1}/${str2}/g `grep ${str1} -rl ./`
+	oldStr=${OLD_PACKAGE_NAME//./_}
+ 	newStr=$2
+ 	newStr=${newStr//./_}
+	echo $oldStr
+        echo $newStr
+	sed -i s/${oldStr}/${newStr}/g `grep ${oldStr} -rl ./`
 	
 	#	
 	oldPath=${OLD_PACKAGE_NAME//.//}
