@@ -1,0 +1,2 @@
+# Newton_for_Android_AS
+这是一个使用Gradle进行构建的以Android Studio为IDE的Android快速开发原型框架
