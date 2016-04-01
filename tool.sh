@@ -38,7 +38,7 @@ if [ $# = 2 ] ; then
 		fi
 
 		#替换环境配置
-		sed -i "s#Environment\.[a-z]*#Environment.${MODE}#g" java/com/unionx/yilingdoctor/config/ConfigFactory.java
+		sed -i "s#Environment\.[a-z]*#Environment.${MODE}#g" java/com/fpliu/newton/config/ConfigFactory.java
 
 		#从主工程的AndroidManifest.xml中读取版本信息
 		versionName=`cat AndroidManifest.xml | grep 'versionName="[^"]*"' | sed 's/.*versionName="\([^"]*\)".*/\1/'`
@@ -53,7 +53,7 @@ if [ $# = 2 ] ; then
         		./gradlew assembleRelease
         
         		if [ $? -eq 0 ] ; then
-                		cp build/outputs/apk/main-release.apk ${apkName}
+                		cp build/outputs/apk/$(basename `pwd`)-release.apk ${apkName}
         		else
                 		exit
         		fi
@@ -61,7 +61,7 @@ if [ $# = 2 ] ; then
         		./gradlew assembleDebug
         
         		if [ $? -eq 0 ] ; then
-                		cp build/outputs/apk/main-debug.apk ${apkName}
+                		cp build/outputs/apk/$(basename `pwd`)-debug.apk ${apkName}
         		else
                 		exit
         		fi
