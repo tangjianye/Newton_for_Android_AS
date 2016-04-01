@@ -12,12 +12,14 @@ if [ $# = 2 ] ; then
 		exit
 	fi
 	
+	oldPackageName=${OLD_PACKAGE_NAME}
+
 	#替换旧的应用名称和包名为新的
 	sed -i s/${OLD_APP_NAME}/$1/g `grep ${OLD_APP_NAME} -rl ./`
 	sed -i s/${OLD_PACKAGE_NAME}/$2/g `grep ${OLD_PACKAGE_NAME} -rl ./`
 	
 	#
-	oldStr=${OLD_PACKAGE_NAME//./_}
+	oldStr=${oldPackageName//./_}
  	newStr=$2
  	newStr=${newStr//./_}
 	echo $oldStr
@@ -25,7 +27,7 @@ if [ $# = 2 ] ; then
 	sed -i s/${oldStr}/${newStr}/g `grep ${oldStr} -rl ./`
 	
 	#	
-	oldPath=${OLD_PACKAGE_NAME//.//}
+	oldPath=${oldPackageName//.//}
 	newPath=$2
 	newPath=${newPath//.//}
 	echo $oldPath
