@@ -28,10 +28,10 @@ if [ $# = 2 ] ; then
 	oldPath=${OLD_PACKAGE_NAME//.//}
 	newPath=$2
 	newPath=${newPath//.//}
-	echo $oldpath
-        echo $newpath
+	echo $oldPath
+        echo $newPath
 
-	sed -i s/${oldStr}/${newStr}/g `grep ${oldStr} -rl ./`
+	sed -i s/${oldPath}/${newPath}/g `grep ${oldPath} -rl ./`
 	
 	cd src/main/java
 	
