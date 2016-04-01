@@ -23,6 +23,7 @@ if [ $# = 2 ] ; then
 	echo $newStr
 	
 	sed -i s/${oldStr}/${newStr}/g `grep ${oldStr} -rl ./`
+
 	
 	oldPath=${OLD_PACKAGE_NAME//.//}
 	newPath=$2
@@ -30,6 +31,8 @@ if [ $# = 2 ] ; then
 	echo $oldpath
         echo $newpath
 
+	sed -i s/${oldStr}/${newStr}/g `grep ${oldStr} -rl ./`
+	
 	cd src/main/java
 	
 	var=$2

@@ -77,7 +77,7 @@
     <application
         android:name="com.fpliu.newton.MyApp"
         android:allowBackup="true"
-        android:debuggable="false"
+        android:debuggable="true"
         android:icon="@drawable/ic_logo"
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Light" >

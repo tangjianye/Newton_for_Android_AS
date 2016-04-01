@@ -10,6 +10,8 @@ import com.fpliu.newton.base.DebugLog;
 import com.fpliu.newton.base.Environment;
 import com.fpliu.newton.base.setting.ISetting;
 import com.fpliu.newton.base.setting.SettingFactory;
+import com.fpliu.newton.config.ConfigFactory;
+import com.fpliu.newton.config.IConfig;
 import com.fpliu.newton.framework.API;
 import com.fpliu.newton.framework.lbs.LBS;
 import com.fpliu.newton.framework.upload.UploadManager;
@@ -35,6 +37,8 @@ public final class MyApp extends Application {
 	private static MyApp mInstance;
 
 	private volatile ISetting mSetting;
+
+	private IConfig config;
 	
 	/** 腾讯开放平台接口 */
 	private Tencent mTencent;
@@ -76,6 +80,8 @@ public final class MyApp extends Application {
 		wxapi = WXAPIFactory.createWXAPI(this, b(), true);
 		//注册到微信
 		wxapi.registerApp(b());
+
+        config = ConfigFactory.newInstance();
 		
 		// 初始化环境
 		Environment.getInstance().init(this);
@@ -115,8 +121,12 @@ public final class MyApp extends Application {
 		}
 		return mSetting;
 	}
-	
-	public Tencent getTencent() {
+
+    public IConfig getConfig() {
+        return config;
+    }
+
+    public Tencent getTencent() {
 		return mTencent;
 	}
 	
