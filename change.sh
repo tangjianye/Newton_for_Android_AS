@@ -46,7 +46,7 @@ if [ $# = 2 ] ; then
 
 	cd $ROOT_DIR
 
-	mv src/main/java/${oldPath} src/main/java/${newPath}
+	mv src/main/java/${oldPath}/* src/main/java/${newPath}
 else
 	echo 'please input new APP_NAME and PACKAGE_NAME'
 fi
