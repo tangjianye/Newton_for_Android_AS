@@ -22,18 +22,18 @@ if [ $# = 2 ] ; then
 	oldStr=${oldPackageName//./_}
  	newStr=$2
  	newStr=${newStr//./_}
-	echo $oldStr
-        echo $newStr
-	sed -i s/${oldStr}/${newStr}/g `grep ${oldStr} -rl ./`
+	echo "oldStr = $oldStr"
+        echo "newStr = $newStr"
+	sed -i s/${oldStr}/${newStr}/g `grep "${oldStr}" -rl ./`
 	
 	#	
 	oldPath=${oldPackageName//.//}
 	newPath=$2
 	newPath=${newPath//.//}
-	echo $oldPath
-        echo $newPath
+	echo "oldPath = $oldPath"
+        echo "newPath = $newPath"
 
-	sed -i s/${oldPath}/${newPath}/g `grep ${oldPath} -rl ./`
+	sed -i s/${oldPath}/${newPath}/g `grep "${oldPath}" -rl ./`
 	
 	cd src/main/java
 	
