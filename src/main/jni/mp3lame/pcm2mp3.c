@@ -5,7 +5,7 @@
 
 lame_t lame;
 
-JNIEXPORT jboolean JNICALL Java_com.fpliu.newton_base_audio_PCM2MP3_init(
+JNIEXPORT jboolean JNICALL Java_com_fpliu_newton_base_audio_PCM2MP3_init(
 		JNIEnv * env, jobject obj, jint pcmSampleRate, jint pcmSampleBit,
 		jint pcmChannels, jint quality) {
 	lame = lame_init();
@@ -32,7 +32,7 @@ JNIEXPORT jboolean JNICALL Java_com.fpliu.newton_base_audio_PCM2MP3_init(
 	return JNI_TRUE;
 }
 
-JNIEXPORT jbyteArray JNICALL Java_com.fpliu.newton_base_audio_PCM2MP3_encode(
+JNIEXPORT jbyteArray JNICALL Java_com_fpliu_newton_base_audio_PCM2MP3_encode(
 		JNIEnv * env, jobject obj, jshortArray buffer, jint length) {
 
 	int nb_write = 0;
@@ -58,7 +58,7 @@ JNIEXPORT jbyteArray JNICALL Java_com.fpliu.newton_base_audio_PCM2MP3_encode(
 	return result;
 }
 
-JNIEXPORT jboolean JNICALL Java_com.fpliu.newton_base_audio_PCM2MP3_destroy(
+JNIEXPORT jboolean JNICALL Java_com_fpliu_newton_base_audio_PCM2MP3_destroy(
 		JNIEnv * env, jobject obj) {
 	lame_close(lame);
 	return JNI_TRUE;
@@ -81,7 +81,7 @@ char* jstringTostring(JNIEnv* env, jstring jstr) {
 	return rtn;
 }
 
-JNIEXPORT jboolean JNICALL Java_com.fpliu.newton_base_audio_PCM2MP3_convert
+JNIEXPORT jboolean JNICALL Java_com_fpliu_newton_base_audio_PCM2MP3_convert
   (JNIEnv * env, jclass clazz, jstring pcmFilePath, jstring mp3FilePath) {
 	int read, write;
 

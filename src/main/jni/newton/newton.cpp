@@ -23,49 +23,49 @@ JNIEXPORT jstring JNICALL func(JNIEnv * env, jobject obj, int array[], int lengt
 	return result;
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_a
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_a
   (JNIEnv * env, jobject obj) {
     int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
     return func(env, obj, a, 16);
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_b
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_b
   (JNIEnv * env, jobject obj) {
 	int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
 	return func(env, obj, a, 16);
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_c
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_c
   (JNIEnv * env, jobject obj) {
 	int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
 	return func(env, obj, a, 16);
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_d
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_d
   (JNIEnv * env, jobject obj) {
 	int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
 	return func(env, obj, a, 16);
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_e
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_e
   (JNIEnv * env, jobject obj) {
 	int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
 	return func(env, obj, a, 16);
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_f
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_f
   (JNIEnv * env, jobject obj) {
 	int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
 	return func(env, obj, a, 16);
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_g
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_g
   (JNIEnv * env, jobject obj) {
 	int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
 	return func(env, obj, a, 16);
 }
 
-JNIEXPORT jstring JNICALL Java_com.fpliu.newton_MyApp_h
+JNIEXPORT jstring JNICALL Java_com_fpliu_newton_MyApp_h
   (JNIEnv * env, jobject obj) {
 	int a[16] = {120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120, 120};
 	return func(env, obj, a, 16);
