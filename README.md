@@ -2,7 +2,9 @@
 这是一个使用Gradle进行构建的以Android Studio为IDE的Android快速开发原型框架
 
 ## 1、下载源码
+```
 git clone https://github.com/leleliu008/Newton_for_Android_AS.git
+```
 ## 2、进入源码目录
 ```
 cd Newton_for_Android_AS
