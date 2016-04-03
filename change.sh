@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #改变APP名称和包名，快速创建新项目
-OLD_APP_NAME='XXX_for_android'
+OLD_APP_NAME='Newton_for_android'
 OLD_PACKAGE_NAME='com.fpliu.newton'
 
 ROOT_DIR=$PWD
@@ -34,18 +34,20 @@ if [ $# = 2 ] ; then
  	newStr=${newStr//./_}
 	echo "oldStr = $oldStr"
         echo "newStr = $newStr"
-	#sed -i s/${oldStr}/${newStr}/g `grep "${oldStr}" -rl ./`
+	sed -i s/${oldStr}/${newStr}/g `grep "${oldStr}" -rl ./`
 	
 	echo "-----------------------"
 	
 	#	
-	oldPath=${oldPackageName//.//}
+	oldPath_=${oldPackageName//.//}
+	oldPath=${oldPackageName//./\\/}
 	newPath=$2
-	newPath=${newPath//.//}
+	newPath_=${newPath//.//}
+	newPath=${newPath//./\\/}
 	echo "oldPath = $oldPath"
         echo "newPath = $newPath"
 
-	#sed -i s/${oldPath}/${newPath}/g `grep "${oldPath}" -rl ./`
+	sed -i s/"${oldPath}"/"${newPath}"/g `grep "${oldPath}" -rl ./`
 	
 	cd src/main/java
 	
@@ -63,7 +65,7 @@ if [ $# = 2 ] ; then
 
 	cd $ROOT_DIR
 
-	#mv src/main/java/${oldPath}/* src/main/java/${newPath}
+	mv src/main/java/${oldPath_}/* src/main/java/${newPath_}
 else
 	echo 'please input new APP_NAME and PACKAGE_NAME'
 fi
