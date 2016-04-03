@@ -3,13 +3,20 @@
 
 ## 1、下载源码
 git clone https://github.com/leleliu008/Newton_for_Android_AS.git
-
-## 2、替换成自己的应用名和包名
+## 2、进入源码目录
 ```
 cd Newton_for_Android_AS
+```
+## 3、替换成自己的应用名和包名
+```
 ./change.sh XXX_for_Android com.xxx.yyy
 ```
-## 3、构建
+## 4、修改local.properties中的AndroidSDK和NDK的配置
+```
+ndk.dir=/your/android/ndk/path
+sdk.dir=/your/android/sdk/path
+```
+## 5、构建
 ```
 ./tool.sh build debug    //构建测试环境的包
 ./tool.sh build release  //构建生产环境的包
