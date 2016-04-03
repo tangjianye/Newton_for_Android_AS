@@ -3,7 +3,23 @@
 APP_NAME='Newton_for_Android';
 PACKAGE_NAME='com.fpliu.newton';
 
-if [ $# = 2 ] ; then
+if [ $# = 1 ] ; then
+	if [ $1 = "-h" ] || [ $1 = "--help" ] ; then
+		echo "Usage:"
+		echo "tool.sh <sub-command> <action>"
+		echo ""
+		echo "sub-command:"
+		echo "test build show-md5"
+		echo ""
+		echo "examples:"
+		echo "tool.sh test unit      execute unit test"
+		echo "tool.sh test monkey    execute monkey test"
+		echo "tool.sh sonar sonar    execute sonar scanner"
+		echo "tool.sh show-md5       show your keystore's md5"
+		echo "tool.sh build debug    build debug environment apk"
+		echo "tool.sh build release  build release environment apk"
+	fi
+elif [ $# = 2 ] ; then
 	if [ $1 = 'test' ] ; then
 		if [ $2 = 'unit' ] ; then
         		adb shell am instrument -w ${PACKAGE_NAME}.test/android.test.InstrumentationTestRunner
