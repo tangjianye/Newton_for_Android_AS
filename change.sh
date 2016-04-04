@@ -66,6 +66,19 @@ if [ $# = 2 ] ; then
 	cd $ROOT_DIR
 
 	mv src/main/java/${oldPath_}/* src/main/java/${newPath_}
+	
+	echo "5、-----------------------"
+
+        cd src/main
+        cp -r libs libs.bak
+        ndk-build
+        rm -f `find libs/ -name "gdbserver"`
+        rm -f `find libs/ -name "gdb.setup"`
+        rm -rf obj/
+        mv libs libs.bak2
+
+        mv libs.bak libs
+        mv libs.bak2 libs
 else
 	echo 'please input new APP_NAME and PACKAGE_NAME'
 fi
