@@ -246,7 +246,7 @@ final class UploadBinder extends IUploadManager.Stub {
 		}
 		
 		//先查看缓存
-		Configuration configuration = Environment.getInstance().getConfiguration();
+		Configuration configuration = null;
 		String azure = configuration.getAzureConf();
 		
 		Charset charset = Charset.forName("utf-8");

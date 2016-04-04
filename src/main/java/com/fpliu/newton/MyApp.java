@@ -65,10 +65,18 @@ public final class MyApp extends Application {
             return;
         }
         
-		//加载动态库
-        System.loadLibrary("newton");
-        
 		mInstance = this;
+
+		config = ConfigFactory.newInstance();
+
+		// 初始化环境
+		Environment.getInstance().init(this);
+
+		// 收集crash信息的
+		DebugLog.registerUncaughtExceptionHandler(this);
+
+		//加载动态库
+		System.loadLibrary("newton");
 		
 		//百度地图初始化
 		SDKInitializer.initialize(this);
@@ -81,20 +89,12 @@ public final class MyApp extends Application {
 		//注册到微信
 		wxapi.registerApp(b());
 
-        config = ConfigFactory.newInstance();
-		
-		// 初始化环境
-		Environment.getInstance().init(this);
-
 		// 初始化定位服务
 		LBS.getInstance().init(this);
 		
 		//需要网络
 		UploadManager.getInstance().init();
 		
-		// 收集crash信息的
-		DebugLog.registerUncaughtExceptionHandler(this);
-
 		File cacheDir = StorageUtils.getCacheDirectory(this);
 		ImageLoaderConfiguration config = new ImageLoaderConfiguration.Builder(
 				getApplicationContext())
