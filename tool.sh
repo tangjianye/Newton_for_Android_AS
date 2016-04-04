@@ -45,7 +45,7 @@ elif [ $# = 2 ] ; then
 	elif [ $1 = 'install' ] ; then
 		adb install -r *.apk
 	elif [ $1 = 'uninstall' ] ; then
-		adb uninstall com.fpliu.newton
+		adb uninstall ${PACKAGE_NAME}
 	elif [ $1 = 'build' ] ; then
 		MODE=$2;
 

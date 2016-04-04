@@ -15,7 +15,7 @@ android {
         minSdkVersion 8
         targetSdkVersion 19
         versionCode 20160401
-        versionName '1.1.1'
+        versionName "1.1.1"
     }
     sourceSets {
         main {

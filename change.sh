@@ -80,6 +80,8 @@ if [ $# = 2 ] ; then
         mv libs.bak libs
         cp -r libs.bak2/* libs
 	rm -rf libs.bak2
+
+	echo '-----------all is success------------'
 else
 	echo 'please input new APP_NAME and PACKAGE_NAME'
 fi
