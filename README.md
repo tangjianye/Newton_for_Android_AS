@@ -23,5 +23,7 @@ sdk.dir=/your/android/sdk/path
 ./tool.sh build debug    //构建测试环境的包
 ./tool.sh build release  //构建生产环境的包
 ```
-<br/>
+## 注意
+版本名请在build.gradle中修改，不要在AndroidManifest.xml中修改。<br/>
+
 tool.sh这个脚本比较强大，提供了很多实用的功能，具体使用请查看帮助：tool.sh -h或者tool.sh --help
