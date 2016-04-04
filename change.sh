@@ -78,7 +78,8 @@ if [ $# = 2 ] ; then
         mv libs libs.bak2
 
         mv libs.bak libs
-        mv libs.bak2 libs
+        mv libs.bak2/* libs
+	rm -rf libs.bak2
 else
 	echo 'please input new APP_NAME and PACKAGE_NAME'
 fi
