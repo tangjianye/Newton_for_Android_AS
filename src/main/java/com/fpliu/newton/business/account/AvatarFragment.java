@@ -49,7 +49,7 @@ import com.fpliu.newton.framework.ui.drawable.StateList;
 import com.fpliu.newton.framework.ui.fragment.BaseFragment;
 import com.fpliu.newton.framework.util.BitmapUtil;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.assist.SimpleImageLoadingListener;
+import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 /**
  * 头像编辑界面

@@ -40,7 +40,7 @@ import com.fpliu.newton.framework.ui.dialog.alert.SweetAlertDialog;
 import com.fpliu.newton.framework.ui.fragment.BaseFragment;
 import com.fpliu.newton.framework.util.TestSetting;
 import com.nostra13.universalimageloader.core.ImageLoader;
-import com.nostra13.universalimageloader.core.assist.SimpleImageLoadingListener;
+import com.nostra13.universalimageloader.core.listener.SimpleImageLoadingListener;
 
 /**
  * 个人中心界面
