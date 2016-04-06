@@ -61,9 +61,12 @@ elif [ $# = 2 ] ; then
 		else
         		sed -i "s#android:debuggable=\"true\"#android:debuggable=\"false\"#g" src/main/AndroidManifest.xml
 		fi
-
+		
+		packagePath=${PACKAGE_NAME//.//}
+		echo "packagePath = $packagePath"
+		
 		#替换环境配置
-		sed -i "s#Environment\.[a-z]*#Environment.${MODE}#g" src/main/java/com/fpliu/newton/config/ConfigFactory.java
+		sed -i "s#Environment\.[a-z]*#Environment.${MODE}#g" src/main/java/${packagePath}/config/ConfigFactory.java
 
 		#从主工程的AndroidManifest.xml中读取版本信息
 		versionName=`cat build.gradle | grep 'versionName "[^"]*"' | sed 's/versionName "\([^"]*\)".*/\1/'`
