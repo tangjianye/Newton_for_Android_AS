@@ -5,7 +5,7 @@
 appName='newton_for_Android';
 packageName='com.fpliu.newton';
 
-keystorePath=~/.android/debug.keystore
+keystorePath=keystore.jks
 keystoreAlias=androiddebugkey
 keystorePassword=android
 
@@ -189,7 +189,7 @@ function changeEnvTo() {
     versionName=`cat build.gradle | grep 'versionName "[^"]*"' | sed 's/versionName "\([^"]*\)".*/\1/'`
     echo ${versionName}
 
-    apkName=${appName}_`echo ${versionName}`_${current_date}_${MODE}.apk
+    apkName=${appName}_`echo ${versionName}`_${currentDate}_${MODE}.apk
     echo ${apkName}
 }
 
