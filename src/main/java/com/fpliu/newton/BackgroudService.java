@@ -32,8 +32,8 @@ public final class BackgroudService extends Service {
 		
 		Intent notificationIntent = new Intent(this, Home.class);
 		PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, notificationIntent, 0);
-		notification.setLatestEventInfo(this, getText(R.string.app_name),
-		        "正在运行...", pendingIntent);
+//		notification.setLatestEventInfo(this, getText(R.string.app_name),
+//		        "正在运行...", pendingIntent);
 		startForeground(1000, notification);
 		
 		return START_REDELIVER_INTENT;

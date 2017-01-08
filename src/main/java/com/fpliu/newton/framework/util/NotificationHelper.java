@@ -63,7 +63,7 @@ public class NotificationHelper {
 
 			PendingIntent pendingIntent = PendingIntent.getActivity(context,
 					0, notificationIntent, 0);
-			notify.setLatestEventInfo(context, title, content, pendingIntent);
+//			notify.setLatestEventInfo(context, title, content, pendingIntent);
 
 			if (notify.contentView != null) {
 				try {
